@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Beatrice Shimizu — Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beatrice Shimizu — Portfolio 1</title>
   <link rel="stylesheet" href="styles/site.css">
 </head>
 
@@ -13,13 +13,12 @@
   <div class="container">
     <div class="brand">
       <h1>Beatrice Shimizu</h1>
-  
     </div>
 
     <nav class="site-nav" aria-label="Primary">
-      <a href="index.html" aria-current="page">Home</a>
+      <a href="index.html">Home</a>
       <a href="about-me.html">About Me</a>
-      <a href="portfolio-1.html">Portfolio 1</a>
+      <a href="portfolio-1.html" aria-current="page">Portfolio 1</a>
       <a href="portfolio-2.html">Portfolio 2</a>
       <a href="portfolio-3.html">Portfolio 3</a>
       <a href="portfolio-4.html">Portfolio 4</a>
@@ -29,19 +28,38 @@
 </header>
 
 <main class="container">
-  <h2>Hi!  Welcome to my portfolio.</h2>
 
-  <p>
-  My name is Beatrice Shimizu. I’m a Designer/Technical Designer hybrid, blending creative vision with technical product development...
-  bringing ideas to life with precision and purpose
-  </p>
+  <section class="card">
+    <h2>Photoshop Works</h2>
 
-  <p>
-    Let’s get to know each other!</p>
+    <div class="media-grid">
+      <figure class="figure">
+        <div class="media">
+          <img src="images/digital-magazine-cover-1200.jpg" alt="Digital Magazine Cover design" loading="lazy" decoding="async">
+        </div>
+        <figcaption class="caption">Digital Magazine Cover created in Adobe Photoshop</figcaption>
+      </figure>
 
+      <figure class="figure">
+        <div class="media">
+          <img src="images/photo-restoration-1200.jpg" alt="Photo restoration before and after" loading="lazy" decoding="async">
+        </div>
+        <figcaption class="caption">Photo Restoration created in Adobe Photoshop</figcaption>
+      </figure>
+    </div>
+  </section>
 
-   <p>Take a moment to click on the links above to view my work and see how my innovative solutions may have the potential to spark new growth for your business. 
-    Your next major success could begin right here!</p>
+  <section class="project-nav" aria-label="Project navigation">
+    <a href="about-me.html">
+      <span class="label">Previous</span>
+      <span class="title">About Me</span>
+    </a>
+    <a href="portfolio-2.html">
+      <span class="label">Next</span>
+      <span class="title">Photoshop and Animate</span>
+    </a>
+  </section>
+
 </main>
 
 <footer class="site-footer">
